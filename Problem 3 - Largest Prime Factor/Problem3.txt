@@ -1,0 +1,61 @@
+==[ QUESTION ]================================================================
+
+The prime factors of 13195 are 5, 7, 13 and 29.
+
+What is the largest prime factor of the number 600851475143?
+
+==[ APPROACH ]================================================================
+
+
+==[ THEORY ]==================================================================
+There are several methods for generating prime numbers: 
+
+	(1) Trial division
+	REFERENCE	
+	DISCUSSION	
+	ALGORITHM	
+	COMPLEXITY	
+
+	(2) Sieve of Eratosthenes
+	REFERENCE	http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+	DISCUSSION	
+	ALGORITHM	
+	COMPLEXITY	
+
+There are several methods for doing prime factorizations: 
+
+(3) Big Numbers : Use Pollard's rho algorithm			
+	REFERENCE	http://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm
+	
+	DISCUSSION	
+	Based on Floyd's cycle-finding algorithm and the Birthday Problem
+		Floyd's cycle-finding algorithm
+	 
+		Birthday Problem
+	
+	ALGORITHM	
+	
+	COMPLEXITY	
+
+(4) Less Than 10^{25} : Use Lenstra elliptic curve factorization
+	REFERENCE	http://en.wikipedia.org/wiki/Lenstra_elliptic_curve_factorization
+
+	DISCUSSION	
+	ALGORITHM	
+	COMPLEXITY	
+
+(5) Less Than 10^{100} : Use Quadratic sieve
+	REFERENCE	http://en.wikipedia.org/wiki/Quadratic_sieve
+	DISCUSSION	
+	ALGORITHM	
+	COMPLEXITY	
+
+(6) More Than 10^{100} : Use General number field sieve
+	REFERENCE	http://en.wikipedia.org/wiki/General_number_field_sieve
+	DISCUSSION	
+	ALGORITHM	
+	COMPLEXITY	
+
+
+==[ REFERENCES ]==============================================================
+http://en.wikibooks.org/wiki/Efficient_Prime_Number_Generating_Algorithms
